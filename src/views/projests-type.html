@@ -1,0 +1,312 @@
+<%= require('@parts/header.ejs')({headerClass: 'header_dark' }) %>
+
+  <main class="innerpage" id="root">
+    <section class="innerpage-first innerpage-first_type">
+        <div class="container">
+            <div class="innerpage-first__row">
+                <div class="innerpage-first__content">
+                    <%= require('@parts/_breadcrumbs.ejs')() %>
+                    <h2 class="innerpage-first__title">Большая переделка Checkbox&Spark&Fennel</h2>
+                    <ul class="innerpage-first__list innerpage-first-list">
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Посмотреть вытяжку в каталоге <i>
+                                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.71939 0.719757L5.29056 4.46966C5.56981 4.76293 5.56981 5.2369 5.29056 5.53013L1.71939 9.28008C1.44013 9.57331 0.988727 9.57331 0.709474 9.28008C0.43022 8.98684 0.43022 8.51284 0.709474 8.21961L3.77567 4.99992L0.70944 1.78023C0.430187 1.48699 0.430187 1.01299 0.70944 0.719757C0.848716 0.57351 1.03158 0.5 1.21441 0.5C1.39728 0.5 1.58011 0.57351 1.71939 0.719757Z" fill="white"/>
+                                </svg>                                    
+                            </i></a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Посмотреть варочную панель в каталоге
+                                <i>
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.71939 0.719757L5.29056 4.46966C5.56981 4.76293 5.56981 5.2369 5.29056 5.53013L1.71939 9.28008C1.44013 9.57331 0.988727 9.57331 0.709474 9.28008C0.43022 8.98684 0.43022 8.51284 0.709474 8.21961L3.77567 4.99992L0.70944 1.78023C0.430187 1.48699 0.430187 1.01299 0.70944 0.719757C0.848716 0.57351 1.03158 0.5 1.21441 0.5C1.39728 0.5 1.58011 0.57351 1.71939 0.719757Z" fill="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Посмотреть духовой шкаф в каталоге
+                                <i>
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.71939 0.719757L5.29056 4.46966C5.56981 4.76293 5.56981 5.2369 5.29056 5.53013L1.71939 9.28008C1.44013 9.57331 0.988727 9.57331 0.709474 9.28008C0.43022 8.98684 0.43022 8.51284 0.709474 8.21961L3.77567 4.99992L0.70944 1.78023C0.430187 1.48699 0.430187 1.01299 0.70944 0.719757C0.848716 0.57351 1.03158 0.5 1.21441 0.5C1.39728 0.5 1.58011 0.57351 1.71939 0.719757Z" fill="white"/>
+                                    </svg>                                        
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="type-image type-image_projects-type">
+        <div class="container">
+            <div class="imageblock type-image__imageblock">
+                <div class="imageblock__content">
+                    <h2 class="imageblock__content-title">
+                        Авторская Концепция
+                    </h2>
+                    <p class="imageblock__content-txt">
+                        Дизайнеры Анна Сысоева и Татьяна Одинцова & Организатор пространства Екатерина Короткова.
+                    </p>
+                    <div class="imageblock__content-wrapper">
+                        <a href="" class="imageblock__content-link">
+                            Подробнее
+                        </a>
+                    </div>
+                    <div class="imageblock__content-info">
+                        <span class="imageblock__content-author">Екатерина Короткова</span> - профессиональный организатор пространства.
+                    </div>
+                    <div class="imageblock__content-info">
+                        <span class="imageblock__content-author">Анна Сысоева и Татьяна Одинцова</span> - дизайнеры, входят в список Elle Decoration Best 200 Russia.
+                    </div>
+                </div>
+                <div class="imageblock__image">
+                    <img src="<%=require('@img/imageblock-1.jpg') %>" alt="" class="imageblock__image-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__slider">
+                <div class="gallery__slider-item">
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                </div>
+                <div class="gallery__slider-item">
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                </div>
+                <div class="gallery__slider-item">
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                </div>
+                <div class="gallery__slider-item">
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                    <a href="<%=require('@img/gallery1.jpg') %>" class="gallery__slider-image image-popup">
+                        <img src="<%=require('@img/gallery1.jpg') %>" alt="">
+                    </a>
+                </div>
+            </div>
+            <h2 class="gallery__title">
+                Процесс большой переделки Checkbox&Spark&Fennel
+            </h2>
+            <p class="gallery__txt">
+                Начинали с формы. Она всегда первостепенна. Простроили нужные объемы, которые должны создать пространство: блок кухни с вторящей аркой вытяжки и монолитной столешницей, уходящей в пол. Получился некий брутализм в плане объемов.
+            </p>
+            <p class="gallery__txt">
+                Дальше стали добавлять легкости с помощью цвета: белого и синего.
+                Сделали цветной потолок цвета неба и поместили на него звёзды. Наши герои — люди творческие, поэтому захотелось внести нотку юмора в интерьер. Звёзды специально сделали неправильных форм, слегка примитивных, как будто их рисовал ребёнок.
+            </p>
+            <p class="gallery__txt">
+                Хотелось подчеркнуть, что интерьер у нас находится в доме с историей, и внести историю в дизайн: люстра 70-х годов из хрусталя, стулья 50-х годов фабрики Лигна.
+                Стену на кухне мы окрасили в тон потолка. Этот эффект помог визуально «заквадратить» помещение. Большое зеркало криволинейной формы отражает свет от окна и винтажной люстры и также по форме отсылает к ретро.
+                Пол решено было сделать шахматной раскладкой плиткой небольшого формата. Это добавляет театральности и визуально расширяет помещение за счет некрупного формата рисунка.
+            </p>
+            <p class="gallery__txt">
+                В результате получился эклектичный, но при этом гармоничный интерьер, играющий на контрастах и не выбивающийся из общей стилистики квартиры. С нотками юмора, с историей, но при этом максимально удобный по функционалу.
+            </p>
+            <p class="gallery__txt">              
+                Белый комплект встраиваемой кухонной техники идеально вписался в концепцию авторского дизайна: варочная панель Spark 604 из эмалированной стали, тяжелые цельнометаллические ручки, отделаны термостойким пластиком; полностью встраиваемая вытяжка Checkbox White бесшумная и мощная; электрический духовой шкаф Fennel 60 WH с функцией гриля.
+            </p>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <h2 class="video__title">
+                Большая переделка Checkbox&Spark
+            </h2>
+            <a href="" class="video__image popup-youtube" rel="nofollow" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+                <img src="<%=require('@img/video-type.jpg') %>" alt="">
+            </a>
+            <div class="video__button">
+                <a href="" class="video__button-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0_3087_3478" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                        <rect width="20" height="20" fill="url(#pattern0)"/>
+                        </mask>
+                        <g mask="url(#mask0_3087_3478)">
+                        <rect width="20" height="20" fill="white"/>
+                        </g>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_3087_3478" transform="scale(0.00195312)"/>
+                        </pattern>
+                        <image id="image0_3087_3478" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA9fAAAPXwHXitrJAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAqxQTFRF////9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwN9hwNDhRLyAAAAON0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUnKCkqKywtLzAxMjM0NTY3ODk7PD0+P0FCQ0RFRkhJSktMTU5PUFFTVFVXWFlaW11eX2Bh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"/>
+                        </defs>
+                    </svg>      
+                    Смотреть на YouTube                  
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="container">
+            <h2 class="projects__title">
+                Похожие проекты
+            </h2>
+            <div class="projects__slider">
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects-item__wrapper">
+                    <a href="#" class="projects-item">
+                        <div class="projects-item__image">
+                            <img src="<%=require('@img/projects.jpg') %>" alt="">
+                        </div>
+                        <div class="projects-item__title">
+                            Большая переделка Skybox&Blaze
+                        </div>
+                        <p class="projects-item__txt">
+                            На кухне поработал настоящий художник. Цветовая гамма даёт возможность быть свободным..
+                        </p>
+                        <div class="projects-item__bottom">
+                            Перейти к проекту <i>
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.42272 1.24399L6.5894 5.41063C6.91523 5.73649 6.91523 6.26313 6.5894 6.58896L2.42272 10.7556C2.0969 11.0815 1.57022 11.0815 1.2444 10.7556C0.918584 10.4298 0.918584 9.90313 1.2444 9.57731L4.8219 5.99981L1.24437 2.42231C0.918545 2.09649 0.918545 1.56981 1.24437 1.24399C1.40687 1.08149 1.62022 0.999814 1.83354 0.999814C2.0469 0.999814 2.26022 1.08149 2.42272 1.24399Z" fill="#141414" fill-opacity="0.3" stroke="#F5F5F5" stroke-width="0.8"/>
+                                </svg>                                    
+                            </i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>

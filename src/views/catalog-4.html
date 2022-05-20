@@ -1,0 +1,47 @@
+<%= require('@parts/header.ejs')({headerClass: 'header_dark' }) %>
+
+  <main class="innerpage" id="root">
+    <section class="innerpage-first">
+        <div class="container">
+            <div class="innerpage-first__row">
+                <div class="innerpage-first__content">
+                    <%= require('@parts/_breadcrumbs.ejs')() %>
+                    <h2 class="innerpage-first__title">Комплекты</h2>
+                    <ul class="innerpage-first__list innerpage-first-list">
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Полностью встраиваемые</a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Встраиваемые телескопические</a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Настенные</a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Плоские козырьковые</a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Купольные</a>
+                        </li>
+                        <li class="innerpage-first-list__item">
+                            <a href="" class="innerpage-first-list__item-link">Островные</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="innerpage-first__image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <%= require('@parts/catalog.ejs')() %>
+    <section class="products">
+        <div class="container">
+            <h2 class="products__title">
+                Ранее смотрели
+            </h2>
+            <%= require('@parts/products-slider.ejs')() %>
+        </div>
+    </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>

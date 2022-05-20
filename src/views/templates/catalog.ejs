@@ -1,0 +1,817 @@
+<section class="catalog">
+    <div class="container">
+        <div class="catalog__row">
+            <aside class="catalog__filters filters">
+                <div class="filters__item filters__item_head">
+                    <div class="filters__title">
+                        Фильтрация
+                    </div>
+                    <button class="filters-mob_close">
+                        <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3087_9999)">
+                            <path d="M16.6056 6.34315L11.3137 11.635L6.02181 6.34315C5.92104 6.24237 5.75763 6.24237 5.65685 6.34315C5.55608 6.44392 5.55608 6.60733 5.65685 6.7081L10.9488 12L5.65685 17.2919C5.55608 17.3927 5.55608 17.5561 5.65685 17.6569C5.75763 17.7576 5.92104 17.7576 6.02181 17.6569L11.3137 12.365L16.6056 17.6569C16.7064 17.7576 16.8698 17.7576 16.9706 17.6569C17.0713 17.5561 17.0713 17.3927 16.9706 17.2919L11.6787 12L16.9706 6.7081C17.0713 6.60733 17.0713 6.44392 16.9706 6.34315C16.8698 6.24237 16.7064 6.24237 16.6056 6.34315Z" fill="#141414" stroke="#141414" stroke-width="0.6" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3087_9999">
+                            <rect width="16" height="16" fill="white" transform="translate(0 12) rotate(-45)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>                            
+                    </button>
+                </div>
+                <div class="filters__item">
+                    <div class="filters__item-title">
+                        Категории
+                    </div>
+                    <div class="filters__item-checkbox filters-checkbox">
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category1" class="filters-checkbox__item-input">
+                            <label for="category1" class="filters-checkbox__item-label">Полностью встраиваемые</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category2" class="filters-checkbox__item-input">
+                            <label for="category2" class="filters-checkbox__item-label">Встраиваемые телескопические</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category3" class="filters-checkbox__item-input">
+                            <label for="category3" class="filters-checkbox__item-label">Настенные</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category4" class="filters-checkbox__item-input">
+                            <label for="category4" class="filters-checkbox__item-label">Плоские козырьковые</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category5" class="filters-checkbox__item-input">
+                            <label for="category5" class="filters-checkbox__item-label">Купольные</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="category6" class="filters-checkbox__item-input">
+                            <label for="category6" class="filters-checkbox__item-label">Островные</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filters__item">
+                    <div class="filters__item-title">
+                        Стоимость
+                    </div>
+                    <div class="filters__item-price price-range">
+                        <div class="price-range__inputs">
+                            <div class="price-range__input-wrapper"><input type="number" class="price-range__input" id="input-0"></div>
+                            <div class="price-range__shape"></div>
+                            <div class="price-range__input-wrapper"><input type="number" class="price-range__input" id="input-1"></div>
+                        </div>
+                        <div class="price-range__slider" id="range-slider">
+                        </div>
+                    </div>
+                </div>
+                <div class="filters__item">
+                    <div class="filters__item-title filters__item-title_header">
+                        Цвета
+                    </div>
+                    <div class="filters__item-body">
+                        <div class="filters__item-colors filters-colors">
+                            <div class="filters-colors__circles">
+                                <div class="filters-colors__circles-item filters-colors__circles-item_all">
+                                    <input type="radio" name="colors-filter" id="colors-filter-1">
+                                    <label for="colors-filter-1">Все</label>
+                                </div>
+                                <div class="filters-colors__circles-item filters-colors__circles-item_light">
+                                    <input type="radio" name="colors-filter" id="colors-filter-2">
+                                    <label for="colors-filter-2">Светлые</label>
+                                </div>
+                                <div class="filters-colors__circles-item filters-colors__circles-item_dark">
+                                    <input type="radio" name="colors-filter" id="colors-filter-3">
+                                    <label for="colors-filter-3">Темные</label>
+                                </div>
+                            </div>
+                            <div class="filters-colors__checkbox filters-checkbox">
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color1" class="filters-checkbox__item-input">
+                                    <label for="color1" class="filters-checkbox__item-label">Все цвета</label>
+                                </div>
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color2" class="filters-checkbox__item-input">
+                                    <label for="color2" class="filters-checkbox__item-label">Встраиваемые телескопические</label>
+                                </div>
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color3" class="filters-checkbox__item-input">
+                                    <label for="color3" class="filters-checkbox__item-label">Настенные</label>
+                                </div>
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color4" class="filters-checkbox__item-input">
+                                    <label for="color4" class="filters-checkbox__item-label">Плоские козырьковые</label>
+                                </div>
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color5" class="filters-checkbox__item-input">
+                                    <label for="color5" class="filters-checkbox__item-label">Купольные</label>
+                                </div>
+                                <div class="filters-checkbox__item">
+                                    <input type="checkbox" id="color6" class="filters-checkbox__item-input">
+                                    <label for="color6" class="filters-checkbox__item-label">Островные</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filters__item">
+                    <div class="filters__item-title">
+                        Ширина
+                        <span>
+                            Выберите необходимую ширину:
+                        </span>
+                    </div>
+                    <div class="filters__item-checkbox filters-checkbox">
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="width1" class="filters-checkbox__item-input">
+                            <label for="width1" class="filters-checkbox__item-label">36 см</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="width2" class="filters-checkbox__item-input">
+                            <label for="width2" class="filters-checkbox__item-label">40 см</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="width3" class="filters-checkbox__item-input">
+                            <label for="width3" class="filters-checkbox__item-label">50 см</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="width4" class="filters-checkbox__item-input">
+                            <label for="width4" class="filters-checkbox__item-label">Больше 60</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filters__item">
+                    <div class="filters__item-title">
+                        Управление
+                    </div>
+                    <div class="filters__item-checkbox filters-checkbox">
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="control1" class="filters-checkbox__item-input">
+                            <label for="control1" class="filters-checkbox__item-label">Сенсорное</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="control2" class="filters-checkbox__item-input">
+                            <label for="control2" class="filters-checkbox__item-label">Электронное</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="control3" class="filters-checkbox__item-input">
+                            <label for="control3" class="filters-checkbox__item-label">Механическое</label>
+                        </div>
+                        <div class="filters-checkbox__item">
+                            <input type="checkbox" id="control4" class="filters-checkbox__item-input">
+                            <label for="control4" class="filters-checkbox__item-label">Бексонтактное</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filters__clean">
+                    <button class="filters__clean-button">
+                        Очистить фильтр 
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#C4C4C4" fill-opacity="0.16"/>
+                            <g clip-path="url(#clip0_3340_14)">
+                            <path d="M11.3797 8.62305C11.2503 8.62305 11.1455 8.72788 11.1455 8.85724V13.2835C11.1455 13.4127 11.2503 13.5177 11.3797 13.5177C11.5091 13.5177 11.6139 13.4127 11.6139 13.2835V8.85724C11.6139 8.72788 11.5091 8.62305 11.3797 8.62305Z" fill="#141414"/>
+                            <path d="M8.61603 8.62305C8.48667 8.62305 8.38184 8.72788 8.38184 8.85724V13.2835C8.38184 13.4127 8.48667 13.5177 8.61603 13.5177C8.74538 13.5177 8.85022 13.4127 8.85022 13.2835V8.85724C8.85022 8.72788 8.74538 8.62305 8.61603 8.62305Z" fill="#141414"/>
+                            <path d="M6.60166 7.97697V13.747C6.60166 14.088 6.72672 14.4083 6.94518 14.6381C7.16263 14.8685 7.46525 14.9993 7.78195 14.9999H12.2129C12.5297 14.9993 12.8323 14.8685 13.0497 14.6381C13.2682 14.4083 13.3932 14.088 13.3932 13.747V7.97697C13.8275 7.86171 14.1089 7.44218 14.0508 6.99657C13.9926 6.55106 13.613 6.2178 13.1637 6.2177H11.9646V5.92496C11.966 5.67879 11.8687 5.4424 11.6944 5.2685C11.5201 5.09468 11.2834 4.9979 11.0372 4.99991H8.95767C8.71149 4.9979 8.47474 5.09468 8.30047 5.2685C8.1262 5.4424 8.02886 5.67879 8.03023 5.92496V6.2177H6.83119C6.38184 6.2178 6.00228 6.55106 5.9441 6.99657C5.88601 7.44218 6.1674 7.86171 6.60166 7.97697ZM12.2129 14.5315H7.78195C7.38154 14.5315 7.07005 14.1875 7.07005 13.747V7.99756H12.9248V13.747C12.9248 14.1875 12.6133 14.5315 12.2129 14.5315ZM8.49861 5.92496C8.49706 5.80302 8.545 5.68565 8.63154 5.59957C8.71799 5.51348 8.83563 5.46619 8.95767 5.46829H11.0372C11.1592 5.46619 11.2769 5.51348 11.3633 5.59957C11.4499 5.68556 11.4978 5.80302 11.4963 5.92496V6.2177H8.49861V5.92496ZM6.83119 6.68609H13.1637C13.3965 6.68609 13.5852 6.87481 13.5852 7.10763C13.5852 7.34045 13.3965 7.52918 13.1637 7.52918H6.83119C6.59837 7.52918 6.40965 7.34045 6.40965 7.10763C6.40965 6.87481 6.59837 6.68609 6.83119 6.68609Z" fill="#141414"/>
+                            <path d="M9.99786 8.62305C9.86851 8.62305 9.76367 8.72788 9.76367 8.85724V13.2835C9.76367 13.4127 9.86851 13.5177 9.99786 13.5177C10.1272 13.5177 10.2321 13.4127 10.2321 13.2835V8.85724C10.2321 8.72788 10.1272 8.62305 9.99786 8.62305Z" fill="#141414"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3340_14">
+                            <rect width="10" height="10" fill="white" transform="translate(5 5)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>                            
+                    </button>
+                    <button class="filters__view_mob">
+                        Показать 132 товара
+                    </button>
+                </div>
+            </aside>
+            <div class="catalog__content shop">
+                <div class="shop__header">
+                   <div class="shop__header-start">
+                        <div class="shop__header-total">
+                            Всего 420 товара
+                        </div>
+                        <div class="shop__header-view shop-view">
+                            <div class="shop-view__title">
+                                Показывать по:
+                            </div>
+                            <div class="shop-view__links">
+                                <a href="" class="shop-view__links-item">50</a>
+                                <a href="" class="shop-view__links-item shop-view__links-item_now">100</a>
+                                <a href="" class="shop-view__links-item">200</a>
+                                <a href="" class="shop-view__links-item">300</a>
+                                <a href="" class="shop-view__links-item">Все</a>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="shop__header-paginagion shop-pagination">
+                        <a href="" class="shop-pagination__link shop-pagination__link_now">
+                            1
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            2
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            3
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            4
+                        </a>
+                        <span class="shop-pagination__link shop-pagination__link_other">
+                            ...
+                        </span>
+                        <a href="" class="shop-pagination__link">
+                            14
+                        </a>
+                    </div>
+                </div>
+                <div class="shop-filters shop__filters">
+                    <div class="shop-filters__filter">
+                        <div class="shop-filters__filter-item">
+                            Управление: сенсорное <i>
+                                <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3087_3146)">
+                                    <path d="M0.311459 6.00002C0.232424 6.00002 0.15339 5.96995 0.0933413 5.90945C-0.0272075 5.7889 -0.0272075 5.59346 0.0933413 5.47292L5.47584 0.0904116C5.59639 -0.0301372 5.79183 -0.0301372 5.91238 0.0904116C6.03293 0.21096 6.03293 0.4064 5.91238 0.527024L0.529954 5.90945C0.469453 5.96958 0.390419 6.00002 0.311459 6.00002Z" fill="white"/>
+                                    <path d="M5.69434 6.00002C5.6153 6.00002 5.53635 5.96995 5.47622 5.90945L0.0933413 0.527024C-0.0272075 0.4064 -0.0272075 0.21096 0.0933413 0.0904116C0.21389 -0.0301372 0.40933 -0.0301372 0.529954 0.0904116L5.91238 5.47292C6.03293 5.59346 6.03293 5.7889 5.91238 5.90945C5.85188 5.96958 5.77292 6.00002 5.69434 6.00002Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_3087_3146">
+                                    <rect width="6" height="6" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                                    
+                            </i>
+                        </div>
+                        <div class="shop-filters__filter-item">
+                            Управление: сенсорное <i>
+                                <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_3087_3146)">
+                                    <path d="M0.311459 6.00002C0.232424 6.00002 0.15339 5.96995 0.0933413 5.90945C-0.0272075 5.7889 -0.0272075 5.59346 0.0933413 5.47292L5.47584 0.0904116C5.59639 -0.0301372 5.79183 -0.0301372 5.91238 0.0904116C6.03293 0.21096 6.03293 0.4064 5.91238 0.527024L0.529954 5.90945C0.469453 5.96958 0.390419 6.00002 0.311459 6.00002Z" fill="white"/>
+                                    <path d="M5.69434 6.00002C5.6153 6.00002 5.53635 5.96995 5.47622 5.90945L0.0933413 0.527024C-0.0272075 0.4064 -0.0272075 0.21096 0.0933413 0.0904116C0.21389 -0.0301372 0.40933 -0.0301372 0.529954 0.0904116L5.91238 5.47292C6.03293 5.59346 6.03293 5.7889 5.91238 5.90945C5.85188 5.96958 5.77292 6.00002 5.69434 6.00002Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_3087_3146">
+                                    <rect width="6" height="6" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                                    
+                            </i>
+                        </div>
+                        <button class="shop-filters__filter-clean">
+                            Очистить фильтр 
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="10" cy="10" r="10" fill="#C4C4C4" fill-opacity="0.16"/>
+                                <g clip-path="url(#clip0_3340_14)">
+                                <path d="M11.3797 8.62305C11.2503 8.62305 11.1455 8.72788 11.1455 8.85724V13.2835C11.1455 13.4127 11.2503 13.5177 11.3797 13.5177C11.5091 13.5177 11.6139 13.4127 11.6139 13.2835V8.85724C11.6139 8.72788 11.5091 8.62305 11.3797 8.62305Z" fill="#141414"/>
+                                <path d="M8.61603 8.62305C8.48667 8.62305 8.38184 8.72788 8.38184 8.85724V13.2835C8.38184 13.4127 8.48667 13.5177 8.61603 13.5177C8.74538 13.5177 8.85022 13.4127 8.85022 13.2835V8.85724C8.85022 8.72788 8.74538 8.62305 8.61603 8.62305Z" fill="#141414"/>
+                                <path d="M6.60166 7.97697V13.747C6.60166 14.088 6.72672 14.4083 6.94518 14.6381C7.16263 14.8685 7.46525 14.9993 7.78195 14.9999H12.2129C12.5297 14.9993 12.8323 14.8685 13.0497 14.6381C13.2682 14.4083 13.3932 14.088 13.3932 13.747V7.97697C13.8275 7.86171 14.1089 7.44218 14.0508 6.99657C13.9926 6.55106 13.613 6.2178 13.1637 6.2177H11.9646V5.92496C11.966 5.67879 11.8687 5.4424 11.6944 5.2685C11.5201 5.09468 11.2834 4.9979 11.0372 4.99991H8.95767C8.71149 4.9979 8.47474 5.09468 8.30047 5.2685C8.1262 5.4424 8.02886 5.67879 8.03023 5.92496V6.2177H6.83119C6.38184 6.2178 6.00228 6.55106 5.9441 6.99657C5.88601 7.44218 6.1674 7.86171 6.60166 7.97697ZM12.2129 14.5315H7.78195C7.38154 14.5315 7.07005 14.1875 7.07005 13.747V7.99756H12.9248V13.747C12.9248 14.1875 12.6133 14.5315 12.2129 14.5315ZM8.49861 5.92496C8.49706 5.80302 8.545 5.68565 8.63154 5.59957C8.71799 5.51348 8.83563 5.46619 8.95767 5.46829H11.0372C11.1592 5.46619 11.2769 5.51348 11.3633 5.59957C11.4499 5.68556 11.4978 5.80302 11.4963 5.92496V6.2177H8.49861V5.92496ZM6.83119 6.68609H13.1637C13.3965 6.68609 13.5852 6.87481 13.5852 7.10763C13.5852 7.34045 13.3965 7.52918 13.1637 7.52918H6.83119C6.59837 7.52918 6.40965 7.34045 6.40965 7.10763C6.40965 6.87481 6.59837 6.68609 6.83119 6.68609Z" fill="#141414"/>
+                                <path d="M9.99786 8.62305C9.86851 8.62305 9.76367 8.72788 9.76367 8.85724V13.2835C9.76367 13.4127 9.86851 13.5177 9.99786 13.5177C10.1272 13.5177 10.2321 13.4127 10.2321 13.2835V8.85724C10.2321 8.72788 10.1272 8.62305 9.99786 8.62305Z" fill="#141414"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_3340_14">
+                                <rect width="10" height="10" fill="white" transform="translate(5 5)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                            
+                        </button>
+                    </div>
+                    <div class="shop-filters__sort">
+                        <div class="shop-filters__sort-item">
+                            <input type="radio" name="sort" id="sort-1" checked>
+                            <label for="sort-1">По популярности</label>
+                        </div>
+                        <div class="shop-filters__sort-item">
+                            <input type="radio" name="sort" id="sort-2">
+                            <label for="sort-2">По цене</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop__mob shop-mob">
+                    <div class="shop-mob__all">
+                        Всего 420 товара
+                    </div>
+                    <button class="shop-mob__button">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.5519 3.78197L9.17502 3.78197C8.92767 3.78197 8.72694 3.58125 8.72694 3.33345C8.72694 3.08567 8.92767 2.88494 9.17502 2.88494L14.5519 2.89792C14.7993 2.89792 15 3.08567 15 3.33345C15 3.58125 14.7997 3.78197 14.5519 3.78197ZM8.27889 13.6508L14.5519 13.6517C14.7993 13.6517 15 13.8515 15 14.0993C15 14.3471 14.7993 14.5479 14.5519 14.5479L8.27889 14.5479C8.03153 14.5479 7.83081 14.3471 7.83081 14.0993C7.83081 13.8515 8.03153 13.6508 8.27889 13.6508ZM9.03479 6.34675C8.85913 6.5233 8.57416 6.5233 8.39852 6.34675L6.03851 3.63097L6.03851 14.5479H5.14237L5.14237 3.61485L2.768 6.34675C2.59236 6.5233 2.30737 6.5233 2.13175 6.34675C1.95608 6.17019 1.95608 5.88433 2.13175 5.70824L5.24227 2.12857C5.33592 2.03447 5.46048 1.9946 5.5828 2.00087C5.70555 1.9946 5.82969 2.03447 5.92332 2.12857L9.03386 5.70824C9.21043 5.88433 9.21043 6.17019 9.03479 6.34675ZM14.5519 11.8563L8.27889 11.8563C8.03153 11.8563 7.83081 11.6555 7.83081 11.4077C7.83081 11.1599 8.03153 10.9633 8.27889 10.9633L14.5519 10.9633C14.7993 10.9633 15 11.16 15 11.4077C15 11.6555 14.7997 11.8563 14.5519 11.8563ZM14.5519 9.16514L8.27889 9.16514C8.03153 9.16514 7.83081 8.96439 7.83081 8.71661C7.83081 8.46881 8.03153 8.27526 8.27889 8.27526L14.5519 8.26809C14.7993 8.26809 15 8.46883 15 8.71661C15 8.96394 14.7997 9.16514 14.5519 9.16514ZM14.5519 6.47356H10.9673C10.72 6.47356 10.5192 6.27283 10.5192 6.02505C10.5192 5.77725 10.72 5.58638 10.9673 5.58638H14.5519C14.7993 5.58638 15 5.77725 15 6.02505C15 6.27281 14.7997 6.47356 14.5519 6.47356Z" fill="black"/>
+                        </svg>    
+                        По популярности                        
+                    </button>
+                    <button class="shop-mob__button shop-mob__button_filters">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0_3087_8978" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+                            <rect width="16" height="16" fill="url(#pattern0)"/>
+                            </mask>
+                            <g mask="url(#mask0_3087_8978)">
+                            <rect width="16" height="16" fill="#141414"/>
+                            </g>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_3087_8978" transform="scale(0.00195312)"/>
+                            </pattern>
+                            <image id="image0_3087_8978" width="512" height="512" xlink:href="data:image/png;base64,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"/>
+                            </defs>
+                        </svg>                                
+                        Фильтрация                       
+                    </button>
+                </div>
+                <div class="shop__catalog shop-catalog">
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__wrapper">
+                        <div class="shop-catalog__item product">
+                            <div class="product__group">
+                                <div class="product__status">
+                                    <div class="product__status-type">
+                                        new
+                                    </div>
+                                    <div class="product__status-circle"></div>
+                                </div>
+                                <div class="product__image">
+                                    <img src="<%=require('@img/product-1.png') %>" alt="" class="product__image-img">
+                                </div>
+                            </div>
+                            <div class="product__group">
+                                <div class="product__title">
+                                    Островная вытяжка Equilibrium Black Glass
+                                </div>
+                                <div class="product__price">
+                                    6 690 ₽ <span class="product__price-old">6 999 ₽  </span>
+                                </div>
+                                <button class="product__add">
+                                    <i>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.733 21.8673L20.7079 10.315C20.6895 10.0864 20.4977 9.91309 20.2654 9.91309H18.1047C18.101 7.99201 16.5376 6.4286 14.6165 6.4286C12.6954 6.4286 11.132 7.99201 11.1283 9.91309H8.96754C8.73893 9.91309 8.54719 10.0864 8.52507 10.315L7.5 21.8673V21.9079C7.5 23.1947 8.68362 24.2419 10.1364 24.2419H19.0966C20.5493 24.2419 21.733 23.1947 21.733 21.9079V21.8673ZM14.6165 7.31357C16.0509 7.31357 17.2161 8.47875 17.2198 9.91311H12.0133C12.017 8.47875 13.1822 7.31357 14.6165 7.31357ZM10.1364 23.3532H19.0965C20.0552 23.3532 20.8369 22.7153 20.848 21.9263L19.8598 10.798H18.1046V12.3503C18.1046 12.5937 17.9055 12.7928 17.6622 12.7928C17.4188 12.7928 17.2197 12.5937 17.2197 12.3503V10.798H12.0132V12.3503C12.0132 12.5937 11.8141 12.7928 11.5707 12.7928C11.3274 12.7928 11.1283 12.5937 11.1283 12.3503V10.798H9.37311L8.38491 21.9226C8.39597 22.7153 9.17768 23.3532 10.1364 23.3532Z" fill="white"/>
+                                        </svg>                    
+                                    </i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop__footer shop-footer">
+                    <button class="shop-footer__button">
+                        Показать еще
+                    </button>
+                    <div class="shop__footer-paginagion shop-pagination">
+                        <a href="" class="shop-pagination__link shop-pagination__link_now">
+                            1
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            2
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            3
+                        </a>
+                        <a href="" class="shop-pagination__link">
+                            4
+                        </a>
+                        <span class="shop-pagination__link shop-pagination__link_other">
+                            ...
+                        </span>
+                        <a href="" class="shop-pagination__link">
+                            14
+                        </a>
+                        <a href="" class="shop-pagination__arrow">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0C4.48582 0 0 4.48582 0 10C0 15.5142 4.48582 20 10 20C15.5142 20 20 15.5142 20 10C20 4.48582 15.5142 0 10 0ZM13.0892 10.5892L8.9225 14.7558C8.76 14.9183 8.54668 15 8.33332 15C8.12 15 7.90664 14.9183 7.74414 14.7558C7.41832 14.43 7.41832 13.9033 7.74414 13.5775L11.3217 10L7.74418 6.4225C7.41836 6.09668 7.41836 5.57 7.74418 5.24418C8.07 4.91836 8.59668 4.91836 8.9225 5.24418L13.0892 9.41086C13.415 9.73668 13.415 10.2633 13.0892 10.5892Z" fill="#141414" fill-opacity="0.8"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

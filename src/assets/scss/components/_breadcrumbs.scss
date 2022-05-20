@@ -1,0 +1,40 @@
+.breadcrumbs {
+    &__item {
+        font-size: 14px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.418);
+        position: relative;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 28px;
+        &::after {
+            width: 4px;
+            height: 4px;
+            position: absolute;
+            content: '';
+            display: inline-block;
+            background: #FF6400;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: 15px;
+        }
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+        transition: .3s all;
+        &:hover {
+            color: #FF6400;
+            opacity: 1;
+        }
+        &_current {
+            &:hover {
+                color: rgba(255, 255, 255, 0.418);
+            }
+        }
+    }
+}

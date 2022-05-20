@@ -1,0 +1,47 @@
+<%= require('@parts/header.ejs')({headerClass: 'header_white' }) %>
+
+  <main class="innerpage" id="root">
+    <section class="garanty">
+        <div class="container">
+            <%= require('@parts/_breadcrumbs.ejs')() %>
+            <div class="garanty__title">
+                Гарантийные обязательства и условия
+            </div>
+            <div class="garanty__row">
+                <div class="garanty__block">
+                    <div class="garanty__block-title">
+                        Контроль качества <br> по стандартам Евросоюза
+                    </div>
+                    <p class="garanty__block-txt">
+                        Вся продукция «KÖNIGIN» изготавливается по стандартам Евросоюза и проходит систему контроля качества. 
+                    </p>
+                    <p class="garanty__block-txt">
+                        Для массового производства используется современное и технологичное оборудование мирового класса, произведенное в Японии и Европе. 
+                    </p>
+                    <p class="garanty__block-txt">
+                        Данный подход позволяет изготавливать высококачественную и надежную технику, предоставляя два года гарантии нашим покупателям. 
+                    </p>
+                </div>
+                <div class="garanty__txt">
+                    <div class="garanty__txt-title">
+                        Бесплатная гарантия на продукцию торговой марки «KÖNIGIN»
+                    </div>
+                    <p class="garanty__txt-txt">
+                        Бесплатная гарантия на продукцию торговой марки «KÖNIGIN» составляет 24 месяца со дня продажи, указанной в гарантийном талоне или кассовом чеке. Для подтверждения права на гарантийное обслуживание, просим Вас сохранять кассовый чек вместе с гарантийным талоном. 
+                    </p>
+                    <p class="garanty__txt-txt">
+                        При нахождении товара в ремонте гарантийный срок продлевается на время ремонта. Покупатель имеет право на бесплатный ремонт при обнаружении неисправностей в течение всего гарантийного срока. Для того чтобы осуществить гарантийный ремонт, необходимо обратиться в один из авторизованных сервисных центров.
+                    </p>
+                    <div class="garanty__txt-buttons garanty-buttons">
+                        <a href="" class="garanty-buttons__btn">Сервисные центры</a>
+                        <div class="garanty-buttons__txt">
+                            Служба технической поддержки: <a class="garanty-buttons__txt-link" href="#">service@konigin.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>

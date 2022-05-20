@@ -1,0 +1,123 @@
+<%= require('@parts/header.ejs')({headerClass: 'header_dark' }) %>
+
+  <main class="innerpage" id="root">
+    <section class="contacts contacts_dark">
+        <div class="container">
+            <%= require('@parts/_breadcrumbs.ejs')() %>
+            <div class="contacts__row">
+                <div class="contacts__content">
+                    <h2 class="contacts__title_main">
+                        Наши контакты
+                    </h2>
+                    <div class="contacts__title">
+                        Офис - Химки Бизнес Парк
+                    </div>
+                    <div class="contacts__item contacts__item_border">
+                        <div class="contacts__item-title">
+                            Адрес: 
+                        </div>
+                        <div class="contacts__item-info">
+                            Московская область, г. Химки, ул. Ленинградская, владение 39, строение 6
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-title">
+                            Склад: 
+                        </div>
+                        <div class="contacts__item-info">
+                            Московская область, г. Химки, ул. Рабочая 19, складской комплекс «ЭХО»
+                        </div>
+                    </div>
+                    <div class="contacts__phones">
+                        <div class="contacts__phones-group">
+                            <a href="tel:8 (929) 961-40-61" class="contacts__phones-tel">8 (929) 961-40-61</a>
+                            <a href="tel:8 (929) 961-40-61" class="contacts__phones-tel">8 (929) 961-40-61</a>
+                        </div>
+                        <div class="contacts__phones-time">
+                            Режим работы: 9:00-20:00
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__item-title">
+                            E-mail:
+                        </div>
+                        <a href="mailto:info@konigin.ru" class="contacts__item-info contacts__item-info_link">
+                            info@konigin.ru
+                        </a>
+                    </div>
+                    <div class="contacts__social">
+                        <div class="contacts__social-title">
+                            Мы в социальных сетях:
+                        </div>
+                        <div class="contacts__social-group contacts__group">
+                            <a href="" class="contacts__group-link">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.70312 12H4.59375C4.39943 12 4.24219 11.8428 4.24219 11.6484V7.03125H3.1875C2.99318 7.03125 2.83594 6.87401 2.83594 6.67969V4.57031C2.83594 4.37599 2.99318 4.21875 3.1875 4.21875H4.24219V2.46094C4.24219 1.10412 5.3463 0 6.70312 0H8.8125C9.00682 0 9.16406 0.157242 9.16406 0.351562V2.46094C9.16406 2.65526 9.00682 2.8125 8.8125 2.8125H7.05469V4.21875H8.8125C8.91584 4.21875 9.01404 4.26408 9.08063 4.34304C9.14756 4.422 9.17641 4.52604 9.15923 4.62799L8.80767 6.73737C8.77952 6.90696 8.63292 7.03125 8.46091 7.03125H7.05466V11.6484C7.05469 11.8428 6.89745 12 6.70312 12Z" fill="#141414"/>
+                                </svg>                                
+                            </a>
+                            <a href="" class="contacts__group-link">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3.5625C4.64297 3.5625 3.53906 4.66641 3.53906 6.02344C3.53906 7.38047 4.64297 8.48438 6 8.48438C7.35703 8.48438 8.46094 7.38047 8.46094 6.02344C8.46094 4.66641 7.35703 3.5625 6 3.5625ZM6 3.5625C4.64297 3.5625 3.53906 4.66641 3.53906 6.02344C3.53906 7.38047 4.64297 8.48438 6 8.48438C7.35703 8.48438 8.46094 7.38047 8.46094 6.02344C8.46094 4.66641 7.35703 3.5625 6 3.5625ZM10.2422 0H1.75781C0.7875 0 0 0.7875 0 1.75781V10.2422C0 11.2125 0.7875 12 1.75781 12H10.2422C11.2125 12 12 11.2125 12 10.2422V1.75781C12 0.7875 11.2125 0 10.2422 0ZM6 9.1875C4.25627 9.1875 2.83594 7.76716 2.83594 6.02344C2.83594 4.27966 4.25627 2.85938 6 2.85938C7.74373 2.85938 9.16406 4.27966 9.16406 6.02344C9.16406 7.76716 7.74373 9.1875 6 9.1875ZM9.86719 2.85938C9.48047 2.85938 9.16406 2.54297 9.16406 2.15625C9.16406 1.76953 9.48047 1.45312 9.86719 1.45312C10.2539 1.45312 10.5703 1.76953 10.5703 2.15625C10.5703 2.54297 10.2539 2.85938 9.86719 2.85938ZM6 3.5625C4.64297 3.5625 3.53906 4.66641 3.53906 6.02344C3.53906 7.38047 4.64297 8.48438 6 8.48438C7.35703 8.48438 8.46094 7.38047 8.46094 6.02344C8.46094 4.66641 7.35703 3.5625 6 3.5625ZM6 3.5625C4.64297 3.5625 3.53906 4.66641 3.53906 6.02344C3.53906 7.38047 4.64297 8.48438 6 8.48438C7.35703 8.48438 8.46094 7.38047 8.46094 6.02344C8.46094 4.66641 7.35703 3.5625 6 3.5625ZM6 3.5625C4.64297 3.5625 3.53906 4.66641 3.53906 6.02344C3.53906 7.38047 4.64297 8.48438 6 8.48438C7.35703 8.48438 8.46094 7.38047 8.46094 6.02344C8.46094 4.66641 7.35703 3.5625 6 3.5625Z" fill="#141414"/>
+                                </svg>                                                              
+                            </a>
+                            <a href="" class="contacts__group-link">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.0015 0H5.9985C2.69025 0 0 2.691 0 6C0 7.3125 0.423 8.529 1.14225 9.51675L0.3945 11.7458L2.70075 11.0085C3.6495 11.637 4.78125 12 6.0015 12C9.30975 12 12 9.30825 12 6C12 2.69175 9.30975 0 6.0015 0ZM9.49275 8.47275C9.348 8.8815 8.7735 9.2205 8.31525 9.3195C8.00175 9.38625 7.59225 9.4395 6.21375 8.868C4.4505 8.1375 3.315 6.34575 3.2265 6.2295C3.14175 6.11325 2.514 5.28075 2.514 4.41975C2.514 3.55875 2.95125 3.1395 3.1275 2.9595C3.27225 2.81175 3.5115 2.74425 3.741 2.74425C3.81525 2.74425 3.882 2.748 3.942 2.751C4.11825 2.7585 4.20675 2.769 4.323 3.04725C4.46775 3.396 4.82025 4.257 4.86225 4.3455C4.905 4.434 4.94775 4.554 4.88775 4.67025C4.8315 4.79025 4.782 4.8435 4.6935 4.9455C4.605 5.0475 4.521 5.1255 4.4325 5.235C4.3515 5.33025 4.26 5.43225 4.362 5.6085C4.464 5.781 4.8165 6.35625 5.3355 6.81825C6.00525 7.4145 6.54825 7.605 6.7425 7.686C6.88725 7.746 7.05975 7.73175 7.1655 7.61925C7.29975 7.4745 7.4655 7.2345 7.63425 6.99825C7.75425 6.82875 7.90575 6.80775 8.06475 6.86775C8.22675 6.924 9.084 7.34775 9.26025 7.4355C9.4365 7.524 9.55275 7.566 9.5955 7.64025C9.6375 7.7145 9.6375 8.06325 9.49275 8.47275Z" fill="#141414"/>
+                                </svg>                                                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__form-wrapper">
+                    <form class="contacts__form contacts-form">
+                        <div class="contacts-form__title">
+                            Оставить заявку
+                        </div>
+                        <div class="contacts-form__row">
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <div class="contacts-form__label">
+                                    Имя*
+                                </div>
+                                <input type="text" class="contacts-form__control" placeholder="Фамилия и имя">
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col6">
+                                <div class="contacts-form__label">
+                                    Телефон*
+                                </div>
+                                <input type="tel" class="contacts-form__control" placeholder="+7 (___) ___-__-__">
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col6">
+                                <div class="contacts-form__label">
+                                    E-mail
+                                </div>
+                                <input type="text" class="contacts-form__control" placeholder="example@yandex.com">
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <div class="contacts-form__label">
+                                    Город
+                                </div>
+                                <input type="text" class="contacts-form__control" placeholder="Ваш город">
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <input type="text" class="contacts-form__control" placeholder="Тема письма">
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <textarea class="contacts-form__textarea" placeholder="Введите текст вашего сообщения"></textarea>
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <button class="contacts-form__submit">Отправить заявку</button>
+                            </div>
+                            <div class="contacts-form__el contacts-form__el_col12">
+                                <div class="contacts-form__txt">
+                                    При нажатии на кнопку «Оставить заявку», я соглашаюсь на обработку <a href="#" class="contacts-form__txt-link">персональных данных </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>

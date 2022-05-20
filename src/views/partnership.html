@@ -1,0 +1,130 @@
+<%= require('@parts/header.ejs')({headerClass: 'header_dark' }) %>
+
+  <main class="innerpage" id="root">
+    <section class="innerpage-partnership">
+        <div class="container">
+            <%= require('@parts/_breadcrumbs.ejs')() %>
+            <div class="innerpage-partnership__row">
+                <div class="innerpage-partnership__content">
+                    <h2 class="innerpage-partnership__title">
+                        Сотрудничество
+                    </h2>
+                    <p class="innerpage-partnership__txt">
+                        Мы предлагаем нашим партнерам различные варианты сотрудничества, наши предложения будут интересны как крупным оптовым компаниям, так и малым предприятиям.  
+                    </p>
+                    <div class="innerpage-partnership__steps">
+                        <div class="innerpage-partnership__steps-item innerpage-partnership-item">
+                            <div class="innerpage-partnership-item__count">
+                                01
+                            </div>
+                            <div class="innerpage-partnership-item__shape">
+                            </div>
+                            <p class="innerpage-partnership-item__txt">
+                                Высокий процент заработка для наших партнеров
+                            </p>
+                        </div>
+                        <div class="innerpage-partnership__steps-item innerpage-partnership-item">
+                            <div class="innerpage-partnership-item__count">
+                                02
+                            </div>
+                            <div class="innerpage-partnership-item__shape">
+                            </div>
+                            <p class="innerpage-partnership-item__txt">
+                                Идеальное соотношение цены и качества
+                            </p>
+                        </div>
+                        <div class="innerpage-partnership__steps-item innerpage-partnership-item">
+                            <div class="innerpage-partnership-item__count">
+                                03
+                            </div>
+                            <div class="innerpage-partnership-item__shape">
+                            </div>
+                            <p class="innerpage-partnership-item__txt">
+                                Востребованность продукции бренда Königin
+                            </p>
+                        </div>
+                        <div class="innerpage-partnership__steps-item innerpage-partnership-item">
+                            <div class="innerpage-partnership-item__count">
+                                04
+                            </div>
+                            <div class="innerpage-partnership-item__shape">
+                            </div>
+                            <p class="innerpage-partnership-item__txt">
+                                Мы можем предложить товар для компаний торгующих как в премиальном сегменте, так и в эконом сегменте
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="innerpage-partnership__image">
+                    <img src="<%=require('@img/partnership.jpg') %>" alt="" class="innerpage-partnership__image-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partnership-form">
+        <div class="container">
+            <h2 class="partnership-form__title">
+                Оставить заявку на сотрудничество:
+            </h2>
+            <form action="" class="partnership-form__form partnership-contact">
+                <div class="partnership-contact__row">
+                    <div class="partnership-contact__el partnership-contact__el_col6">
+                        <div class="partnership-contact__label">
+                            Имя*
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="Фамилия и имя">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            Должность
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="Ваша должность">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            Название компании
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="ООО “Компания”">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            Город
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="Адрес компании">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            Адрес сайта
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="Ссылка на сайт">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            Телефон
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="partnership-contact__el">
+                        <div class="partnership-contact__label">
+                            E-mail
+                        </div>
+                        <input type="text" class="partnership-contact__control" placeholder="example@yandex.com">
+                    </div>
+                    <div class="partnership-contact__el partnership-contact__el_col12">
+                        <textarea class="partnership-contact__textarea" placeholder="Введите текст вашего сообщения"></textarea>
+                    </div>
+                    <div class="partnership-contact__el partnership-contact__el_col6">
+                        <button class="partnership-contact__submit">Отправить заявку</button>
+                    </div>
+                    <div class="partnership-contact__el partnership-contact__el_col6">
+                        <div class="partnership-contact__rights">
+                            При нажатии на кнопку «Оставить заявку», я соглашаюсь на обработку <a href="#" class="partnership-contact__rights-link">персональных данных</a> 
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>
